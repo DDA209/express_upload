@@ -1,0 +1,23 @@
+<h1>Création du profil</h1>
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <div>
+        <label for="username">Nom d'utilisateur</label>
+        <input type="text" name="username" id="username">
+    </div>
+    <div>
+        <label for="firstname">Prénom</label>
+        <input type="text" name="firstname" id="firstname">
+    </div>
+    <div>
+        <label for="lastname">Nom de famille</label>
+        <input type="text" name="lastname" id="lastname">
+    </div>
+    <div>
+        <label for="picture">Image de profile</label>
+        <input type="file" name="picture" id="picture">
+    </div>
+    <div>
+        <button type="submit">Envoyer</button>
+    </div>
+</form>
